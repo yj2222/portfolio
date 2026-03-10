@@ -1,0 +1,353 @@
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Montserrat:wght@900&family=Oswald:wght@700&family=Cinzel:wght@400;600&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+		<script src="https://cdn.tailwindcss.com" defer></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						fontFamily: {
+							sans: ["Noto Sans JP", "sans-serif"],
+						},
+					},
+				},
+			};
+		</script>
+		<style>
+			:root {
+				--main-color: #e91e63;
+			}
+
+			body {
+				font-family: "Noto Sans JP", sans-serif;
+				line-height: 1.8;
+			}
+
+			h1 {
+				line-height: 1;
+			}
+
+			/* Feature List */
+			.u-feature-list li {
+				border-left: 4px solid var(--main-color);
+			}
+		</style>
+	</head>
+	<body>
+		<header class="pt-12 md:pt-20 pb-24 md:pb-40 px-5 md:px-8">
+			<h1 class="text-5xl md:text-8xl"><span class="font-sans font-black">WEB DIRECTOR</span><br /><span class="font-serif font-light">PORTFOLIO</span></h1>
+		</header>
+
+		<section class="bg-gray-50 pt-10 md:pt-16 pb-20 md:pb-32 px-5 md:px-8">
+			<div class="max-w-screen-xl mx-auto">
+				<h2><span class="text-base md:text-lg">私を言葉で表すと・・・</span><br /><span class="text-2xl md:text-4xl font-bold">多様性と論理的思考の融合</span></h2>
+				<ul class="u-feature-list flex flex-col md:flex-row gap-8 md:gap-12 mt-8 md:mt-12">
+					<li class="flex-1 p-3 md:p-4 text-lg md:text-xl bg-white">
+						<h3 class="font-serif font-light text-xl md:text-2xl">[ VERSATILITY ]</h3>
+						<p class="mt-1 md:mt-2 text-base md:text-lg leading-relaxed font-bold">個人案件の自由度を活かし、要件定義からデザイン、コーディング、動画制作までを一人で完結させるスピード感と圧倒的な対応力。</p>
+					</li>
+					<li class="flex-1 p-3 md:p-4 text-lg md:text-xl bg-white">
+						<h3 class="font-serif font-light text-xl md:text-2xl">[ LOGIC ]</h3>
+						<p class="mt-1 md:mt-2 text-base md:text-lg leading-relaxed font-bold">競争力が試される企業案件(インハウス)では、数値目標達成だけではなくシステム移行など、運用効率向上など多角的な論理的思考。</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section>
+			<div class="relative h-[300px] overflow-hidden">
+				<div class="absolute top-1/2 left-0 -translate-y-1/2 z-10 w-full text-center p-1 md:p-2 bg-white">
+					<h2 class="text-xs md:text-sm font-bold">INDIVIDUAL PROJECTS(個人案件)</h2>
+					<p class="text-base md:text-lg font-bold">幅広く対応する多様性</p>
+				</div>
+				<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[300px] leading-none tracking-[-0.1em] font-mono">VERSATILITY</div>
+			</div>
+		</section>
+
+		<section class="bg-gray-50 pt-10 md:pt-16 pb-20 md:pb-32 px-5 md:px-8">
+			<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-8 md:gap-12">
+				<div class="img md:flex-1 h-fit relative">
+					<h2 class="text-2xl md:text-3xl font-bold">工務店HP制作</h2>
+					<p class="text-xs md:text-sm mt-3 md:mt-4">WordPress / Adobe XD</p>
+					<img class="w-full mt-3 md:mt-4 border border-gray-300 shadow-lg" src="/img-pf02.webp" alt="" width="300" height="150" />
+					<a href="https://kurashinotaguken.com/" target="_blank" class="block text-right mt-4 md:mt-5 text-2xl md:text-3xl font-mono hover:opacity-70 transition-opacity" style="color: var(--main-color)">MORE ></a>
+				</div>
+
+				<div class="desc flex-1">
+					<div class="font-serif font-light italic text-base md:text-lg">
+						<span>名刺がわりになるサイトを、すぐに立ち上げたいという要望だったため、スピード感を持って実装しました。</span>
+					</div>
+
+					<div class="mt-10 md:mt-16">
+						<ul class="space-y-3 md:space-y-4 px-3 md:px-4">
+							<li class="flex items-center gap-2">
+								<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+								<div class="flex-1">
+								<h3 class="text-base md:text-lg font-medium">導入：1〜2週間</h3>
+									<p class="text-sm md:text-base">HPの立ち位置や費用感、制作に必要なもののご提示</p>
+								</div>
+							</li>
+							<li class="flex items-center gap-2">
+								<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+								<div class="flex-1">
+								<h3 class="text-base md:text-lg font-medium">要件定義：2〜3週間</h3>
+									<p class="text-sm md:text-base">ページ構成、掲載内容、デザイン方針やテーマ決め</p>
+								</div>
+							</li>
+							<li class="flex items-center gap-2">
+								<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+								<div class="flex-1">
+								<h3 class="text-base md:text-lg font-medium">ロゴ・デザイン制作：1.5〜2.5週間</h3>
+									<p class="text-sm md:text-base">ロゴを作成し、サイトのトンマナなどを選定しデザインへ展開</p>
+								</div>
+							</li>
+							<li class="flex items-center gap-2">
+								<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+								<div class="flex-1">
+								<h3 class="text-base md:text-lg font-medium">コーディング・調整：1〜2週間</h3>
+									<p class="text-sm md:text-base">Wordpressによる動的コンテンツ対応、お客様運用箇所の認識合わせ</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="pt-10 md:pt-16 pb-20 md:pb-32 px-5 md:px-8">
+			<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-8 md:gap-12">
+				<div class="img md:flex-1 h-fit relative">
+					<h2 class="text-2xl md:text-3xl font-bold">ハウスクリーニングHP制作</h2>
+					<p class="text-xs md:text-sm mt-3 md:mt-4">WordPress / Adobe XD</p>
+					<img class="w-full mt-3 md:mt-4 border border-gray-300 shadow-lg" src="/img-pf01.webp" alt="" width="300" height="150" />
+					<a href="https://ethical-normal.com/" target="_blank" class="block text-right mt-4 md:mt-5 text-2xl md:text-3xl font-mono hover:opacity-70 transition-opacity" style="color: var(--main-color)">MORE ></a>
+				</div>
+
+				<div class="desc flex-1">
+					<div class="font-serif font-light italic text-base md:text-lg">
+						<span>業界の先駆けとなるブランディングで、クライアントの熱量が高く、じっくり時間をかけてサイトを構築しました。</span>
+					</div>
+
+					<div class="mt-10 md:mt-16">
+						<ul class="space-y-3 md:space-y-4 px-3 md:px-4">
+							<li class="flex items-center gap-2">
+								<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+								<div class="flex-1">
+								<h3 class="text-base md:text-lg font-medium">導入：1〜2週間</h3>
+									<p class="text-sm md:text-base">クライアント側と他施策など交えたスケジュール調整</p>
+								</div>
+							</li>
+							<li class="flex items-center gap-2">
+								<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+								<div class="flex-1">
+								<h3 class="text-base md:text-lg font-medium">要件定義：3〜4ヶ月</h3>
+									<p class="text-sm md:text-base">既存の制作物などを踏襲し、ページ構成や掲載内容の選定</p>
+								</div>
+							</li>
+							<li class="flex items-center gap-2">
+								<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+								<div class="flex-1">
+								<h3 class="text-base md:text-lg font-medium">TOPページデザイン制作・モック作成：2〜3週間</h3>
+									<p class="text-sm md:text-base">ブランディングを損なわず、かつ業界の先駆けとなるデザインを考案</p>
+								</div>
+							</li>
+							<li class="flex items-center gap-2">
+								<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+								<div class="flex-1">
+								<h3 class="text-base md:text-lg font-medium">コーディング・下層ページ制作：3〜4週間</h3>
+									<p class="text-sm md:text-base">WordpressでTOPページに合わせ下層ページも調整</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-gray-50 pt-10 md:pt-16 pb-20 md:pb-32 px-5 md:px-8">
+			<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-8 md:gap-12">
+				<div class="p-mock flex-1 flex flex-col md:flex-row gap-8 md:gap-12">
+					<div class="img md:flex-1 h-fit relative">
+						<h2 class="text-2xl md:text-3xl font-bold">イベント向け動画制作</h2>
+						<p class="text-xs md:text-sm mt-3 md:mt-4">Premiere Pro / After Effects</p>
+						
+                        <img class="w-full mt-3 md:mt-4 border border-gray-300 shadow-lg" src="/img-pf03.webp" alt="" width="300" height="150" />
+
+						<div class="font-serif font-light italic text-base md:text-lg mt-10 md:mt-16">
+							<span>大きな節目を彩る特別な動画制作とのことで、クライアントの想いを形にした長編映像を制作しました。</span>
+						</div>
+
+						<div class="mt-10 md:mt-16">
+							<ul class="space-y-3 md:space-y-4 px-3 md:px-4">
+								<li class="flex items-center gap-2">
+									<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+									<div class="flex-1">
+									<h3 class="text-base md:text-lg font-medium">導入、素材受け取り：2〜3日</h3>
+										<p class="text-sm md:text-base">素材を受け取り、要望やゴール設定を定義</p>
+									</div>
+								</li>
+								<li class="flex items-center gap-2">
+									<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+									<div class="flex-1">
+									<h3 class="text-base md:text-lg font-medium">カット・タイミング調整：2〜3日</h3>
+										<p class="text-sm md:text-base">イベント動画ならではのテンポやリズム感を重視</p>
+									</div>
+								</li>
+								<li class="flex items-center gap-2">
+									<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+									<div class="flex-1">
+									<h3 class="text-base md:text-lg font-medium">テロップ・エフェクト追加：1〜2日</h3>
+										<p class="text-sm md:text-base">シンプルで品のある公式感を意識した加工</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="p-mock flex-1 flex flex-col md:flex-row gap-8 md:gap-12">
+					<div class="img md:flex-1 h-fit relative">
+						<h2 class="text-2xl md:text-3xl font-bold">プロポーズ用動画制作</h2>
+						<p class="text-xs md:text-sm mt-3 md:mt-4">Nano Banana / Seedance / KlinkAI</p>
+
+                        <div class="relative w-full aspect-video mt-3 md:mt-4 border border-gray-300 shadow-lg">
+							<iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/upzFqy6Cqgs?si=4l8ZtHSbiggaPyqz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+						</div>
+
+						<div class="font-serif font-light italic text-base md:text-lg mt-10 md:mt-16">
+							<span>短納期かつ自身初の試みとなりましたが、生成AIの特徴を最大限に活かし、プロポーズ成功へ導けました！</span>
+						</div>
+
+						<div class="mt-10 md:mt-16">
+							<ul class="space-y-3 md:space-y-4 px-3 md:px-4">
+								<li class="flex items-center gap-2">
+									<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+									<div class="flex-1">
+									<h3 class="text-base md:text-lg font-medium">導入、台本受け取り：1日</h3>
+										<p class="text-sm md:text-base">台本を受け取り、要望やゴール設定を定義</p>
+									</div>
+								</li>
+								<li class="flex items-center gap-2">
+									<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+									<div class="flex-1">
+									<h3 class="text-base md:text-lg font-medium">画像・動画生成：1日</h3>
+										<p class="text-sm md:text-base">AIとの壁打ちを経て、画像を大量生成し動画化</p>
+									</div>
+								</li>
+								<li class="flex items-center gap-2">
+									<span class="inline-block w-3 md:w-4 h-px" style="background-color: var(--main-color)"></span>
+									<div class="flex-1">
+									<h3 class="text-base md:text-lg font-medium">編集、テロップ、音声生成：1日</h3>
+										<p class="text-sm md:text-base">最後の感動シーンを強調するため、ストーリーや構成などを再調整</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="relative h-[300px] overflow-hidden">
+				<div class="absolute top-1/2 left-0 -translate-y-1/2 z-10 w-full text-center p-1 md:p-2 bg-white">
+					<h2 class="text-xs md:text-sm font-bold">CORPORATE PROJECTS(企業内業務)</h2>
+					<p class="text-base md:text-lg font-bold">多角的な論理的思考</p>
+				</div>
+				<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[300px] leading-none tracking-[-0.1em] font-mono">LOGICAL</div>
+			</div>
+		</section>
+
+		<section class="bg-gray-50 pt-10 md:pt-16 pb-20 md:pb-32 px-5 md:px-8">
+			<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-8 md:gap-12">
+				<div class="img md:flex-1 h-fit relative">
+					<h2 class="text-2xl md:text-3xl font-bold">光回線サイトのリニューアル</h2>
+					<p class="text-xs md:text-sm mt-3 md:mt-4">Astro / microCMS / Figma</p>
+					<img class="w-full mt-3 md:mt-4 border border-gray-300 shadow-lg" src="/img-pf04.webp" alt="" width="300" height="150" />
+					<a href="https://setsuzoku.nifty.com/niftyhikari/" target="_blank" class="block text-right mt-4 md:mt-5 text-2xl md:text-3xl font-mono hover:opacity-70 transition-opacity" style="color: var(--main-color)">MORE ></a>
+				</div>
+
+				<div class="desc flex-1">
+					<ul class="space-y-5 md:space-y-8 px-3 md:px-4">
+						<li class="flex items-start gap-2">
+							<span class="inline-block w-3 md:w-4 h-px mt-3 md:mt-3.5" style="background-color: var(--main-color)"></span>
+							<div class="flex-1">
+							<h3 class="text-base md:text-lg font-medium">UI設計：6〜7ヶ月</h3>
+								<p class="text-sm md:text-base mt-1 md:mt-2" style="line-height: 2">長年の改修により統一感が失われていたデザインから、比較検討を行うユーザーをペルソナとし、無駄な情報を省いたシンプルなUI設計を実現しました。高いUI評価を獲得しCVR向上が見込めました。</p>
+							</div>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="inline-block w-3 md:w-4 h-px mt-3 md:mt-3.5" style="background-color: var(--main-color)"></span>
+							<div class="flex-1">
+							<h3 class="text-base md:text-lg font-medium">フロント構築：5〜6ヶ月</h3>
+								<p class="text-sm md:text-base mt-1 md:mt-2" style="line-height: 2">エンジニアと協力しモダンフレームワークへのシステム移行を実行。CMSと組み合わせ、構造化データの自動生成などテクニカルSEO対応も強化しました。フロントコーディングの大部分を担当しました。</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<section class="max-w-screen-xl mx-auto mt-12 md:mt-20">
+				<h3><span class="text-base md:text-lg">リニューアルの裏側・・・</span><br /><span class="text-2xl md:text-4xl font-bold">デザイン・フロントのシステム移行</span></h3>
+				<ul class="u-feature-list flex flex-col md:flex-row gap-8 md:gap-12 mt-8 md:mt-12">
+					<li class="flex-1 p-3 md:p-4 bg-white">
+						<h3 class="font-serif font-light text-xl md:text-2xl">[ Design Tool ]</h3>
+						<p class="mt-1 md:mt-2 text-base md:text-lg leading-relaxed">Illustratorでのファイル管理からクラウド型ツール<span style="background-color: rgba(233, 30, 99, 0.1); padding: 0 3px; border-radius: 2px">Figma</span>へ移行。コンポーネント単位での設計が可能となり、<span style="background-color: rgba(233, 30, 99, 0.1); padding: 0 3px; border-radius: 2px">デザイン資産の体系的な管理</span>を実現した。</p>
+						<p class="mt-4 md:mt-6 font-bold text-3xl md:text-4xl text-right"><span style="color: var(--main-color)">→</span>運用効率向上</p>
+					</li>
+					<li class="flex-1 p-3 md:p-4 text-lg md:text-xl bg-white">
+						<h3 class="font-serif font-light text-xl md:text-2xl">[ FrontEnd ]</h3>
+						<p class="mt-1 md:mt-2 text-base md:text-lg leading-relaxed">レガシーシステムから軽量なモダンフレームワーク<span style="background-color: rgba(233, 30, 99, 0.1); padding: 0 3px; border-radius: 2px">Astro</span>へ移行。<span style="background-color: rgba(233, 30, 99, 0.1); padding: 0 3px; border-radius: 2px">microCMS</span>を活用した運用フローの簡略化、<span style="background-color: rgba(233, 30, 99, 0.1); padding: 0 3px; border-radius: 2px">保守性の高い構造</span>を実現した。</p>
+						<p class="mt-4 md:mt-6 font-bold text-3xl md:text-4xl text-right"><span style="color: var(--main-color)">→</span>性能改善</p>
+					</li>
+				</ul>
+			</section>
+		</section>
+
+		<section class="pt-10 md:pt-16 pb-20 md:pb-32 px-5 md:px-8">
+			<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-8 md:gap-12">
+				<div class="img md:flex-1 h-fit relative">
+					<h2 class="text-2xl md:text-3xl font-bold">スピード測定サイトの公開</h2>
+					<p class="text-xs md:text-sm mt-3 md:mt-4">Astro / microCMS / Figma</p>
+					<img class="w-full mt-3 md:mt-4 border border-gray-300 shadow-lg" src="/img-pf05.webp" alt="" width="300" height="150" />
+					<a href="https://speed.nifty.com/" target="_blank" class="block text-right mt-4 md:mt-5 text-2xl md:text-3xl font-mono hover:opacity-70 transition-opacity" style="color: var(--main-color)">MORE ></a>
+				</div>
+
+				<div class="desc flex-1">
+					<ul class="space-y-5 md:space-y-8 px-3 md:px-4">
+						<li class="flex items-start gap-2">
+							<span class="inline-block w-3 md:w-4 h-px mt-3 md:mt-3.5" style="background-color: var(--main-color)"></span>
+							<div class="flex-1">
+							<h3 class="text-base md:text-lg font-medium">UI設計：3〜4ヶ月</h3>
+								<p class="text-sm md:text-base mt-1 md:mt-2" style="line-height: 2">社内として新領域の取り組みでしたが、テーマは「できるだけシンプルで使いやすいWEBアプリ」を目指しUI設計しました。公開1ヶ月で10万UU以上を達成しました。検索順位向上に向け、ABテストやUI改修を継続しています。</p>
+							</div>
+						</li>
+						<li class="flex items-start gap-2">
+							<span class="inline-block w-3 md:w-4 h-px mt-3 md:mt-3.5" style="background-color: var(--main-color)"></span>
+							<div class="flex-1">
+							<h3 class="text-base md:text-lg font-medium">フロント構築：2〜3ヶ月</h3>
+								<p class="text-sm md:text-base mt-1 md:mt-2" style="line-height: 2">外部APIを活用した計測ロジックに加え、アニメーションなどのUI要素を独自実装。結果に応じたランク判定など、診断コンテンツ的な仕組みも追加実装。GAやGTMなども調整し、継続的にパフォーマンスをモニタリングしています。</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+
+		<footer class="bg-black text-white py-8 md:py-12 px-5 md:px-8">
+			<div class="text-center">
+				<p class="text-sm md:text-base mb-2">WEB DIRECTOR PORTFOLIO</p>
+				<small class="text-xs md:text-sm opacity-60">© 2026 All Rights Reserved.</small>
+			</div>
+		</footer>
+	</body>
+</html>

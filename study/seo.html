@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>SEO対策</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+:root{--main:#e91e63;--text:#222;--sub:#666;--line:#e5e5e5;--bg:#fff;--soft:#fdf2f6;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:16px}
+body{margin:0;font-family:"Noto Sans JP",sans-serif;line-height:1.8;color:var(--text);background:var(--bg);font-size:15px}
+.wrap{display:flex;max-width:1200px;margin:0 auto}
+nav{position:sticky;top:0;height:100vh;overflow-y:auto;width:280px;flex-shrink:0;padding:24px 16px;border-right:1px solid var(--line);font-size:13px}
+nav .back{display:inline-block;margin-bottom:16px;color:var(--main);text-decoration:none;font-weight:700}
+nav ul{list-style:none;margin:0;padding:0}
+nav li{margin:4px 0}
+nav li.l3{padding-left:14px;font-size:12px}
+nav a{color:var(--sub);text-decoration:none}
+nav a:hover{color:var(--main)}
+main{flex:1;min-width:0;padding:32px 40px 80px}
+h1{font-size:28px;margin:0 0 24px;padding-bottom:12px;border-bottom:3px solid var(--main)}
+h2{font-size:21px;margin-top:56px;padding:6px 12px;border-left:5px solid var(--main);background:var(--soft)}
+h3{font-size:17px;margin-top:36px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+h4{font-size:15px;margin-top:24px;color:var(--main)}
+a{color:var(--main);word-break:break-all}
+hr{border:none;border-top:1px solid var(--line);margin:40px 0}
+ul,ol{padding-left:1.4em}
+li{margin:2px 0}
+strong{background:linear-gradient(transparent 60%,#ffd6e5 60%)}
+code{background:#f4f4f4;padding:1px 5px;border-radius:3px;font-size:.9em}
+.tbl{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}
+th{background:var(--soft);white-space:nowrap}
+tbody tr:nth-child(even){background:#fafafa}
+@media (max-width:860px){
+ .wrap{display:block}
+ nav{position:static;height:auto;width:auto;border-right:none;border-bottom:1px solid var(--line)}
+ main{padding:24px 16px 60px}
+ h1{font-size:23px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+<a class="back" href="./">← 一覧へ</a>
+<ul><li class="l2"><a href="#s1">動画リスト(YouTube)</a></li><li class="l2"><a href="#s2">スライド資料(動画と1対1で対応)</a></li><li class="l2"><a href="#s3">1. Googleの考えとSEOの基本概念</a></li><li class="l3"><a href="#s4">Googleの使命とアルゴリズムの目的</a></li><li class="l3"><a href="#s5">Googleアップデート</a></li><li class="l3"><a href="#s6">AIとGoogle・SEO</a></li><li class="l2"><a href="#s7">2. サーチコンソール・被リンク・独自アンケート</a></li><li class="l3"><a href="#s8">サーチコンソールとは</a></li><li class="l3"><a href="#s9">検索結果の数値</a></li><li class="l3"><a href="#s10">LP作成に活かす</a></li><li class="l3"><a href="#s11">優先して改善するコンテンツの探し方</a></li><li class="l3"><a href="#s12">新しいページの通知・問題確認</a></li><li class="l3"><a href="#s13">被リンクの集め方</a></li><li class="l3"><a href="#s14">独自アンケートを活用した記事コンテンツ</a></li><li class="l2"><a href="#s15">3. HTMLタグの基本とSEOへの影響</a></li><li class="l3"><a href="#s16">タグの書き方</a></li><li class="l2"><a href="#s17">4. 記事以外のページのSEO改善</a></li><li class="l2"><a href="#s18">5. 動画SEOの基礎講座</a></li><li class="l2"><a href="#s19">6. Google Discover対策</a></li><li class="l2"><a href="#s20">7. コンテンツ施策講座:新規コンテンツ制作</a></li><li class="l3"><a href="#s21">ペルソナ設定</a></li><li class="l3"><a href="#s22">キーワード調査</a></li><li class="l3"><a href="#s23">記事の書き方</a></li><li class="l2"><a href="#s24">8. コンテンツ施策講座:キーワード選定と作成リスト</a></li><li class="l2"><a href="#s25">9. コンテンツ施策講座:リライト</a></li></ul>
+</nav>
+<main>
+<h1>SEO対策</h1><p>出典:自習学習用教材「SEO対策」ページ
+<a href="https://sites.google.com/view/reskilling-wannabe-student/study/seo%E5%AF%BE%E7%AD%96" target="_blank" rel="noopener">https://sites.google.com/view/reskilling-wannabe-student/study/seo%E5%AF%BE%E7%AD%96</a></p>
+<hr>
+<h2 id="s1">動画リスト(YouTube)</h2><div class="tbl"><table><thead><tr>
+<th>#</th>
+<th>タイトル</th>
+<th>URL</th>
+</tr>
+</thead><tbody><tr>
+<td>1</td>
+<td>Googleの考えとSEOの基本概念</td>
+<td><a href="https://www.youtube.com/watch?v=385RNq0x9nI" target="_blank" rel="noopener">https://www.youtube.com/watch?v=385RNq0x9nI</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Googleサーチコンソール 被リンクの集め方&amp;独自アンケートコンテンツの作成方法</td>
+<td><a href="https://www.youtube.com/watch?v=Geh51UgNIJs" target="_blank" rel="noopener">https://www.youtube.com/watch?v=Geh51UgNIJs</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>HTMLタグの基本とSEOへの影響</td>
+<td><a href="https://www.youtube.com/watch?v=4K6m-Fsglyg" target="_blank" rel="noopener">https://www.youtube.com/watch?v=4K6m-Fsglyg</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>記事以外のページのSEO改善</td>
+<td><a href="https://www.youtube.com/watch?v=8ZMmXe1Qfyk" target="_blank" rel="noopener">https://www.youtube.com/watch?v=8ZMmXe1Qfyk</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>動画SEOの基礎講座</td>
+<td><a href="https://www.youtube.com/watch?v=9L6zPg_ywrg" target="_blank" rel="noopener">https://www.youtube.com/watch?v=9L6zPg_ywrg</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Google Discover対策</td>
+<td><a href="https://www.youtube.com/watch?v=HNxnkkCUenE" target="_blank" rel="noopener">https://www.youtube.com/watch?v=HNxnkkCUenE</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>コンテンツ施策講座 新規コンテンツ制作</td>
+<td><a href="https://www.youtube.com/watch?v=EEjiywUA66o" target="_blank" rel="noopener">https://www.youtube.com/watch?v=EEjiywUA66o</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>コンテンツ施策講座 キーワード選定と作成リストの作成</td>
+<td><a href="https://www.youtube.com/watch?v=m53xIhnGgKo" target="_blank" rel="noopener">https://www.youtube.com/watch?v=m53xIhnGgKo</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>コンテンツ施策講座 リライト</td>
+<td><a href="https://www.youtube.com/watch?v=JiZsEc88TX0" target="_blank" rel="noopener">https://www.youtube.com/watch?v=JiZsEc88TX0</a></td>
+</tr>
+</tbody></table></div><p>※動画の文字起こしは未対応(後回し)</p>
+<h2 id="s2">スライド資料(動画と1対1で対応)</h2><ol>
+<li>Googleの考えとSEOの基本概念(11ページ):<a href="https://docs.google.com/presentation/d/1hfWTEza6J8ZrzzN2Vac0Svdn91tzyuAtHZCLBbYYoGk/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1hfWTEza6J8ZrzzN2Vac0Svdn91tzyuAtHZCLBbYYoGk/present</a></li>
+<li>サーチコンソール・被リンクの集め方・独自アンケート(39ページ):<a href="https://docs.google.com/presentation/d/1TXhWQIC0dbloMmdQNVA3wez-FXTV6TpUKHmo7bE4oV0/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1TXhWQIC0dbloMmdQNVA3wez-FXTV6TpUKHmo7bE4oV0/present</a></li>
+<li>HTMLタグの基本とSEOへの影響(20ページ):<a href="https://docs.google.com/presentation/d/1G17o0-oLK5DaSsmuJCcj1vLqlBXaUxICXEp0yr5wvMg/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1G17o0-oLK5DaSsmuJCcj1vLqlBXaUxICXEp0yr5wvMg/present</a></li>
+<li>記事以外のページのSEO改善(13ページ):<a href="https://docs.google.com/presentation/d/15b8_xFissitqHZujE_Kjox0wCmaBlB-xV_WZbakpD0A/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/15b8_xFissitqHZujE_Kjox0wCmaBlB-xV_WZbakpD0A/present</a></li>
+<li>動画SEOの基礎講座(16ページ):<a href="https://docs.google.com/presentation/d/1pzrv-_iQOmWFw45xUb5cQMBfwHl47lvNYYoZDFjLZko/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1pzrv-_iQOmWFw45xUb5cQMBfwHl47lvNYYoZDFjLZko/present</a></li>
+<li>Google Discover対策(14ページ):<a href="https://docs.google.com/presentation/d/1V6d1FjmZnC-gKotudsqW0-54eRNoSNlY_Tae6HMCzJI/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1V6d1FjmZnC-gKotudsqW0-54eRNoSNlY_Tae6HMCzJI/present</a></li>
+<li>コンテンツ施策講座 新規コンテンツ制作(75ページ。同じ内容が3回くり返されていて、実質25ページ):<a href="https://docs.google.com/presentation/d/1HgX-WjRDGy9kjGaVVxejdFUCdgOSlDCLRPGQD8khMZA/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1HgX-WjRDGy9kjGaVVxejdFUCdgOSlDCLRPGQD8khMZA/present</a></li>
+<li>コンテンツ施策講座 キーワード選定と作成リストの作成(7ページ):<a href="https://docs.google.com/presentation/d/1pY9BS3IkutSJiuW1fEezisG35V-fgvZL2Ddnt0bmcZs/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1pY9BS3IkutSJiuW1fEezisG35V-fgvZL2Ddnt0bmcZs/present</a></li>
+<li>コンテンツ施策講座 リライト(7ページ):<a href="https://docs.google.com/presentation/d/1zhOxjdoXzmTvQlxTTWrtLW0-ow9K1CRUilyRPqsATOU/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1zhOxjdoXzmTvQlxTTWrtLW0-ow9K1CRUilyRPqsATOU/present</a></li>
+</ol>
+<hr>
+<h2 id="s3">1. Googleの考えとSEOの基本概念</h2><h3 id="s4">Googleの使命とアルゴリズムの目的</h3><ul>
+<li>Googleの使命:「世界中の情報を整理し、誰もがアクセスできて使えるものにする」<ul>
+<li>情報整理の重要性:膨大な情報を整理し、必要な情報を迅速に提供する</li>
+<li>アクセス可能性の確保:検索結果の精度と利便性を上げ、国境や障壁を越えた情報共有を実現する</li>
+<li>SEOとの連携:Googleの使命に沿ったSEOが大事。高品質なコンテンツとユーザー体験が成功のカギ</li>
+</ul>
+</li>
+<li>アルゴリズムの目的:高品質なコンテンツを評価し、検索意図を深く理解して最適な検索結果を出す<ul>
+<li>高品質なコンテンツ評価(信頼性・内容の深さ・オリジナリティ)</li>
+<li>検索意図の正確な把握(クエリの背景にある意図)</li>
+<li>ユーザーエクスペリエンス重視(読み込み速度、モバイル対応)</li>
+</ul>
+</li>
+</ul>
+<h3 id="s5">Googleアップデート</h3><ul>
+<li>検索精度と品質を上げるためのアルゴリズム改良。関連性や信頼性のある情報を優先して評価する</li>
+<li>主なアップデート<ul>
+<li><strong>Panda(2011年)</strong>:コンテンツの品質を重視し、中身の薄いサイトを排除</li>
+<li><strong>Penguin(2012年)</strong>:スパムリンクを抑え、自然なリンク構築を促す。質の悪いリンク施策のサイトは順位が大きく下がった</li>
+<li><strong>BERT(2019年)</strong>:自然言語処理で検索クエリの文脈を理解できるようになった</li>
+</ul>
+</li>
+<li>最近のトレンド<ul>
+<li><strong>E-E-A-T</strong>(経験・専門性・権威性・信頼性):信頼できる情報提供の基準</li>
+<li><strong>Core Web Vitals</strong>:ページ速度や操作性などのパフォーマンス指標</li>
+<li><strong>Helpful Content Update</strong>:ユーザーにとって有益で信頼できる情報を評価</li>
+</ul>
+</li>
+</ul>
+<h3 id="s6">AIとGoogle・SEO</h3><ul>
+<li>RankBrain:GoogleがAIを初めて検索クエリの理解に使った例</li>
+<li>BERT:検索意図を正確に理解。導入時に検索結果の精度が10%向上</li>
+<li>生成AIの普及で、Googleはコンテンツの品質や有用性をより厳しく評価するようになっている</li>
+<li>AI活用型SEO:キーワード選定や競合分析を効率化し、コンテンツの質を上げる(ChatGPTやSurfer SEOでSEO効果を約20%上げた企業もある)</li>
+<li>まとめ:ユーザーに価値を提供することがSEO成功の基盤</li>
+</ul>
+<h2 id="s7">2. サーチコンソール・被リンク・独自アンケート</h2><h3 id="s8">サーチコンソールとは</h3><ul>
+<li>Google検索での掲載順位を監視・管理・改善するための無料サービス</li>
+<li>できること:検索結果の数値(表示回数・掲載順位)の把握/インデックスエラーなどサイトの問題の把握/新しいページのインデックス依頼</li>
+</ul>
+<h3 id="s9">検索結果の数値</h3><div class="tbl"><table><thead><tr>
+<th>指標</th>
+<th>意味</th>
+</tr>
+</thead><tbody><tr>
+<td>クエリ</td>
+<td>ユーザーが検索したキーワード</td>
+</tr>
+<tr>
+<td>クリック数</td>
+<td>検索結果で自社サイトがクリックされた回数</td>
+</tr>
+<tr>
+<td>表示回数</td>
+<td>検索結果に自社サイトが表示された回数</td>
+</tr>
+<tr>
+<td>CTR</td>
+<td>検索結果でのクリック率</td>
+</tr>
+<tr>
+<td>掲載順位</td>
+<td>検索結果での平均掲載順位</td>
+</tr>
+</tbody></table></div><ul>
+<li>特定のクエリだけ、期間を変えて、ページ別・国別・デバイス別など、いろいろな切り口で分析できる</li>
+</ul>
+<h3 id="s10">LP作成に活かす</h3><ul>
+<li>価値の高いページの要素を分類して、流入の多いページやLPに順序立てて入れる</li>
+<li>サーチコンソールでCTRの高いキーワード(とそのページのタイトル・ディスクリプション)をLPに入れると、CVR改善を狙える</li>
+</ul>
+<h3 id="s11">優先して改善するコンテンツの探し方</h3><ul>
+<li><strong>順位が低いのに表示回数が多いページ</strong>:ユーザーが熱心に探しているテーマの可能性が高い。タイトル・ディスクリプションを直すと流入が一気に増える可能性がある(例:63.6位なのに表示回数2,859回)<ul>
+<li>上位のページのタイトル・ディスクリプションを参考に、自分の記事に足りない要素を探す</li>
+<li>例:「社会人 出会い」には「出会う前」と「出会った後」の2つのニーズがある。自分の記事がどちらかを明確にする</li>
+</ul>
+</li>
+<li><strong>順位が高いのにCTRが低いページ</strong>:タイトル・ディスクリプションが魅力的に見えていない(例:1.1位なのにCTR 3.8%)</li>
+<li>順位別のCTRの目安(SISTRIX社):1位 28.5%、2位 15.7%、3位 11.0%、4位 8.0%、5位 7.2%、6位 5.1%、7位 4.0%、8位 3.2%、9位 2.8%、10位 2.5%。1位と3位で倍以上の差がある</li>
+</ul>
+<h3 id="s12">新しいページの通知・問題確認</h3><ul>
+<li>URL検査でURLを入れると、インデックス・ガバレッジ・モバイルユーザビリティの状態が分かる<ul>
+<li><strong>インデックス</strong>:検索結果に登録させること。インデックスされていないと検索結果に出ない。Googlebotに「クロールして」と合図を送れる</li>
+<li><strong>クロール</strong>:Googleのクローラーがサイトの情報を集めること。クロールしたデータをもとにインデックスする</li>
+<li><strong>ガバレッジ</strong>:サイトのページがどれくらいインデックスされているか。エラーがあるとインデックスされないので対応が必要(サンクスページなど意図的に除外するものもある)</li>
+<li><strong>モバイルユーザビリティ</strong>:スマホやタブレットに対応した表示になっているか</li>
+</ul>
+</li>
+<li><strong>サイトマップ</strong>:サイト全体の構成を表すもの。構成を大きく変えたときにGoogleに送ると、まとめてインデックスを促せる</li>
+<li><strong>ページエクスペリエンス</strong>:読み込み速度・インタラクティブ性・視覚的安定性など、使いやすさの指標。モバイル検索のランキングシグナルとして使われる</li>
+<li><strong>ウェブに関する主な指標</strong>:実際の使用データをもとに、ページ速度を「良好」「改善が必要」「不良」の3段階で表示</li>
+<li><strong>パンくずリスト</strong>:サイト内での現在位置を示すナビゲーション。正しく設定しないと、検索結果に「パンくずのリッチリザルト」が表示されない</li>
+<li><strong>外部リンク</strong>:上位のリンクされているページ/上位のリンク元サイト/上位のリンク元テキストが分かる</li>
+<li><strong>内部リンク</strong>:同じサイト内のリンク。回遊率を上げ、Googleもページ評価でリンクを重視しているのでSEOに欠かせない</li>
+</ul>
+<h3 id="s13">被リンクの集め方</h3><ul>
+<li>メディアに寄稿する</li>
+<li>無料で獲得できる被リンクを活用する</li>
+<li><strong>独自の調査データを集めてコンテンツにする</strong></li>
+<li>SNSで拡散を狙う(ただし、SNSのリンクはnofollowなので被リンクとしては無効)</li>
+</ul>
+<h3 id="s14">独自アンケートを活用した記事コンテンツ</h3><ul>
+<li>独自のアンケートデータを集めて記事にすると、オリジナリティが高い魅力的なコンテンツになる</li>
+<li>メリット<ul>
+<li>①拡散性が高い:例「Web広告運用者122名に聞いたCookie規制の影響と対策」が多くのXアカウントでシェアされた</li>
+<li>②被リンクを獲得しやすい:ニュースメディアなどで引用・紹介される</li>
+</ul>
+</li>
+<li><strong>サーベロイド</strong>:セルフ型のネットリサーチツール。最低1万円(税別)から</li>
+<li>費用の例:「商品Aの購買経験がある男女200人に新商品の調査」<ul>
+<li>スクリーニング(対象者を絞り込む調査):20〜60代男女に配信して2,000人回収、5問まで → 1万円</li>
+<li>本調査:購買経験ありの200人 × 10問 × 15円 → 3万円</li>
+<li>合計4万円(税別)</li>
+</ul>
+</li>
+<li>流れ:スクリーニングで対象者を抽出 → 本調査 → 調査結果を記事化</li>
+</ul>
+<h2 id="s15">3. HTMLタグの基本とSEOへの影響</h2><ul>
+<li>HTMLタグは、検索エンジンがページ内容を理解するための土台。適切なタグ付けが順位とアクセス向上につながる</li>
+<li>過剰な最適化(キーワードのしつこい繰り返し、過剰な内部リンクなど)は、検索エンジンを操作しようとしていると判断され、順位低下やインデックス削除のリスクがある</li>
+<li>タイトル・ディスクリプション・altなどは定期的に見直す</li>
+</ul>
+<h3 id="s16">タグの書き方</h3><div class="tbl"><table><thead><tr>
+<th>タグ</th>
+<th>役割</th>
+<th>ポイント</th>
+</tr>
+</thead><tbody><tr>
+<td>① title</td>
+<td>ページのテーマを伝える。順位とクリックに直結</td>
+<td>50〜60文字以内。キーワードを自然に入れる。クリックしたくなる表現。例:`<title>初心者向けSEOガイド</td>
+</tr>
+<tr>
+<td>② meta description</td>
+<td>検索結果のスニペットに表示され、CTRに影響</td>
+<td>120〜160文字。キーワードを入れ、ユーザーに価値を伝える</td>
+</tr>
+<tr>
+<td>③ 見出し(H1〜H6)</td>
+<td>ページの構造を整理し、テーマを明確にする</td>
+<td>H1は1ページに1つだけ。階層を意識して論理的に配置</td>
+</tr>
+<tr>
+<td>alt属性</td>
+<td>画像の内容を検索エンジンに伝える</td>
+<td>画像SEOとアクセシビリティ(スクリーンリーダー)の両方に効く</td>
+</tr>
+<tr>
+<td>④ canonical</td>
+<td>重複コンテンツを避け、正規URLを伝える</td>
+<td>重複しそうなページすべてに設定。<code>&lt;head&gt;</code> 内に絶対パスで指定</td>
+</tr>
+<tr>
+<td>⑤ robotsメタタグ</td>
+<td>インデックスさせるか、リンクをたどらせるかを指示</td>
+<td><code>noindex, nofollow</code> など。重要なページに誤ってnoindexを付けると検索結果から消える</td>
+</tr>
+<tr>
+<td>⑥ OGP</td>
+<td>SNSでシェアされたときの見え方を制御</td>
+<td>og:title / og:description / og:image / og:url。設定ミスで変な画像が出るとCTRが下がる</td>
+</tr>
+<tr>
+<td>⑦ JSON-LD(構造化データ)</td>
+<td>コンテンツの構造を伝える</td>
+<td>リッチリザルトを狙うのに重要。不正確だとGoogleから警告</td>
+</tr>
+<tr>
+<td>⑧ link(alternate / hreflang)</td>
+<td>多言語サイトやモバイル版・AMPのURLを伝える</td>
+<td>hreflangが間違うと別の言語のページが表示される</td>
+</tr>
+<tr>
+<td>⑨ iframe</td>
+<td>YouTubeや地図などの外部コンテンツを埋め込む</td>
+<td>iframe内のコンテンツはSEOの評価を受けにくい</td>
+</tr>
+<tr>
+<td>⑩ noscript</td>
+<td>(資料ではdata属性の例が載っている)</td>
+<td>※資料の説明は <code>data-*</code> 属性の内容になっており、noscriptタグの説明としては不正確</td>
+</tr>
+</tbody></table></div><h2 id="s17">4. 記事以外のページのSEO改善</h2><ul>
+<li>カテゴリーページや商品ページは、購入や問い合わせなどの行動を促す役割があり、最初に見られる可能性もあるのでSEOが重要</li>
+<li><strong>ホームページ</strong>:タイトル・ディスクリプションに主要キーワードを入れてテーマを明確にする/重要ページへの内部リンクを分かりやすく置く/ファーストビューですぐ理解できるデザインにして初回の離脱を減らす</li>
+<li><strong>カテゴリーページ</strong>:カテゴリー名をH1、サブカテゴリーをH2以降に/冒頭にカテゴリーの説明文を入れる/関連商品や記事への内部リンクで滞在時間を伸ばす</li>
+<li><strong>商品ページ</strong>:キーワードを含む独自の説明文/高解像度の画像とalt属性(商品名と特徴)、画像の読み込み速度の最適化/購入手順を簡単にし、読み込み速度を上げて途中離脱を防ぐ</li>
+<li><strong>問い合わせページ</strong>:連絡先を目立つ位置に置く/フォームの項目を必要最低限にして完了率を上げる</li>
+<li><strong>モバイルフレンドリー</strong>:Googleはモバイル対応サイトを優先して表示する</li>
+<li><strong>E-E-A-T</strong>:商品ページに購入者のレビューや専門的な解説を載せる/ホームページにブランドストーリーや受賞歴を載せる</li>
+<li><strong>効果測定</strong>:GA4で各ページのCTRや直帰率を見る。CTRが低いページはタイトルとディスクリプション、離脱率が高いページは使いやすさを改善する</li>
+<li><strong>共通の技術施策</strong>:SSL対応(通信の暗号化。ランキング要因)/404ページをカスタマイズして別のページに誘導する</li>
+<li><strong>内部リンク</strong>:サイトの階層を明確にし、回遊・滞在時間・CVRを上げる。クローラーの評価にもつながる</li>
+</ul>
+<h2 id="s18">5. 動画SEOの基礎講座</h2><ul>
+<li>動画SEO:動画を最適化して、Google検索とYouTubeでの順位を上げ、より多くの視聴者に届けること</li>
+<li>動画はテキストよりクリックされやすく、理解度も高い</li>
+<li>基本の考え方:検索意図に合ったコンテンツにする/視聴時間を重視する(最後まで見てもらう工夫)/リッチスニペットでCTRを上げる</li>
+<li>YouTubeとウェブサイトの違い:YouTubeは<strong>視聴時間とエンゲージメント</strong>(高評価・コメント)が順位に大きく影響。ウェブサイトは<strong>埋め込み方とメタ情報</strong>が重要</li>
+<li>タイトル:キーワードを自然に入れて興味を引く(例:「初心者向けSEO動画ガイド|実践編」)</li>
+<li>説明文:冒頭に要旨を書き、何が得られるかを明確にする</li>
+<li>サムネイル:明るい色(赤・オレンジなど)と分かりやすい文字で目を引く。クリック率を大きく上げられる</li>
+<li>タグ・カテゴリー:内容に合ったカテゴリーと関連性の高いタグを設定し、定期的に見直す</li>
+<li>字幕・トランスクリプト:アクセシビリティ向上、多言語対応、検索エンジンが内容を理解しやすくなる</li>
+<li>ウェブページへの埋め込み:分かりやすいCTAを置く/動画の周りに要約や関連リンクを置く/埋め込みを軽くして表示速度を保つ</li>
+<li>ホスティング先:YouTube(最大の視聴者層、収益化可能)/Vimeo(広告なし、プロ向け)/自社ホスティング(完全にコントロールできるが管理が必要)</li>
+<li>効果測定:YouTubeアナリティクスで視聴時間・CTRを見て、サーチコンソールで検索パフォーマンスを追う。結果をもとにタイトルやサムネイルを変える</li>
+<li>視聴維持率を上げる:<strong>最初の15秒が最重要</strong>/長さは2〜5分程度が理想/小さなトピックに分けて飽きさせない</li>
+<li>読み込み速度:動画の圧縮とCDNの活用</li>
+<li>モバイル:レスポンシブにする、データ量を減らす、字幕を付ける</li>
+</ul>
+<h2 id="s19">6. Google Discover対策</h2><ul>
+<li>Google Discover:検索履歴や関心をもとに、<strong>検索しなくても</strong>コンテンツを提案する機能(Googleアプリ・Chromeなど)</li>
+<li>重要な理由:CTRが高い/検索に頼らず新しいユーザー層に届く/モバイルの流入源として有効</li>
+<li>表示される条件:インデックスされていること/信頼性・関連性・新しさのある高品質なコンテンツ/Discoverのコンテンツポリシーに準拠すること</li>
+<li>対策<ul>
+<li>titleは60文字以内で関心を引く、meta descriptionは150文字以内で要点を伝える</li>
+<li><strong>1200px以上の高解像度画像</strong>を使い、OGPや構造化データ(Schema.org)で画像を指定する(例:<code>og:image</code> に幅1200・高さ630)</li>
+<li><strong>E-E-A-T</strong>:著者情報(経歴・専門性)を明示し、出典を明記する。構造化データ(NewsArticle)で著者や公開日を伝える</li>
+<li>AMP対応でモバイルの表示速度を上げる</li>
+<li>サーチコンソールの「Discover」タブで表示回数とCTRを定期的に確認し、CTRが低ければタイトルや画像を見直す</li>
+<li>誤解を招くタイトルや低品質な情報は避ける。トレンドや新しい情報が関心を集めやすい</li>
+<li>SNSでのシェアやコメント(ソーシャルシグナル)も表示に影響する。動画やインフォグラフィックはシェアされやすい</li>
+</ul>
+</li>
+</ul>
+<h2 id="s20">7. コンテンツ施策講座:新規コンテンツ制作</h2><h3 id="s21">ペルソナ設定</h3><ul>
+<li>ペルソナ:商品・サービスの典型的なユーザー像。年齢、性別、居住地、職業、年収、趣味、価値観、家族構成、休日の過ごし方などを、実在するかのように詳しく決める</li>
+<li>手順<ol>
+<li>情報収集:既存ユーザーへのインタビューやアンケート、既存顧客のデータ(アクセス解析・SNS)、外部の定量・定性データ</li>
+<li>情報を分類してストーリーを作る(どんなことに悩んでいるか、どんなことに挑戦しているか)</li>
+</ol>
+</li>
+<li>例:鈴木泰一、25歳男性、東京都中野区、独身、システム機器販売会社のマーケティング担当(日中は営業も兼務)、年収450万円、趣味はゲームと飲み会、Web担当者フォーラム・MarkeZineを読む<ul>
+<li>挑戦していること:新しくマーケ担当になりモチベーションが高い</li>
+<li>悩み:営業だけでは将来食べていけないのでは/慣れないWebマーケ業務で肩こりがひどい</li>
+<li>検索キーワード:Googleアナリティクス、Google広告、Facebook広告、Yahoo!広告、Webマーケティングセミナー(デスクトップで検索)</li>
+</ul>
+</li>
+<li>悩みは具体的に書く(あとで広告を作るときに役立つ)。キーワードやデバイスは、GA4で検証しやすいように項目にしておく</li>
+</ul>
+<h3 id="s22">キーワード調査</h3><ul>
+<li><strong>キーワードプランナー</strong>:Google広告の管理画面で使える無料ツール。検索ボリューム、キーワード候補、競合性が分かる<ul>
+<li>Google広告のアカウントが必要。ある程度広告を出すと詳しい数値が出る</li>
+<li>MCCアカウントで作った場合、広告アカウントができていないと「アカウントがありません」と出て使えない</li>
+<li>手順:「新しいキーワードを見つける」→ キーワードを入力 → 検索ボリュームを確認</li>
+</ul>
+</li>
+<li><strong>Ubersuggest</strong>:無料の代替ツール。SEO難易度も色で分かる(無料は1日3回まで)</li>
+</ul>
+<h3 id="s23">記事の書き方</h3><ul>
+<li>これからはKnowクエリ(知りたい)はChatGPTに置き換わっていく。<strong>人間にしかできない経験を加えた記事</strong>が重要<ul>
+<li>Knowクエリ:事実の情報はChatGPTの方が早い(例:「産業革命って何があった?」)</li>
+<li>Go(行きたい)/Do(やってみたい)/Buy(買いたい)クエリ:実際の経験や口コミが必要な情報が多く、記事が勝てる(例:「新婚旅行におすすめの旅行先」)</li>
+</ul>
+</li>
+<li>読みたくなるタイトルのポイント<ol>
+<li>読めば役に立つと一目で分かる(「〇〇テクニック」「〇〇の秘訣は〇〇だった」)</li>
+<li>どう役に立つかを明確にする(例:「ダイエット停滞期のあなたが即実践したくなる方法を教えます」)</li>
+<li>タイトルと内容に一貫性がある</li>
+<li>簡単に成果が得られると分かる(「3分でわかる!」など)</li>
+<li>具体的な数字が入っている</li>
+</ol>
+</li>
+<li><strong>PREP法</strong>:Point(結論)→ Reason(理由)→ Example(具体例)→ Point(結論)。ユーザーは導入文で読むかを数秒で判断するので、冒頭に結論を書く</li>
+<li>記事作成のポイント:見出しタグをこまめに使う/改行や装飾で読みやすくする/よく分からないフリー素材ではなく、図解など内容を補う画像を使う/重要な情報は上部に置く</li>
+</ul>
+<h2 id="s24">8. コンテンツ施策講座:キーワード選定と作成リスト</h2><ul>
+<li>手順<ol>
+<li>Ubersuggestで、狙うメインキーワードと一緒に検索されている<strong>共起語</strong>を調べる</li>
+<li>検索ボリュームとSEO難易度を見て、使うキーワードを見つける</li>
+<li>実際に検索してみる:公式サイト・有名企業・有名メディアが上位にいるキーワードはNG。それ以外のサイトが上位にいるキーワードは、自分が書いても上位に出られる可能性がある</li>
+<li>Ubersuggestでキーワードを深掘りして、書くべきコンテンツを決める(例:「Webマーケティング スクール 副業」と一緒に検索される「案件紹介」「未経験」などを調べ、記事に入れる内容を決める)<ul>
+<li>Ubersuggestの画面例(ボリューム/CPC/PD/SD):webマーケティング スクール 1,900/¥1,913/72/23、webマーケティング 副業 720/¥680/52/34、webマーケティング副業 880/¥562/42/44、Webマーケティング スクール 副業 未経験 210/¥744/20/20、Webマーケティング スクール 副業 案件紹介 140/¥395/27/22</li>
+<li>SD(SEO難易度)が低く緑色のものが狙いやすい</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>作成リスト:タイトル、コンセプト、共起語、PPC単価をまとめる。過去の検索ボリュームの推移から、記事を公開するタイミングを決める</li>
+<li>作成リストの例(項目:NO/仮タイトル/コンセプト/共起語/カテゴリ/キーワード/検索ボリューム/PPC単価/参考URL)</li>
+</ul>
+<div class="tbl"><table><thead><tr>
+<th>NO</th>
+<th>仮タイトル</th>
+<th>コンセプト</th>
+<th>カテゴリ</th>
+<th>キーワード(ボリューム/PPC)</th>
+</tr>
+</thead><tbody><tr>
+<td>1</td>
+<td>Webマーケティングスクールとは?特徴と選び方</td>
+<td>概要、特徴、選び方のポイントを解説</td>
+<td>概要</td>
+<td>Webマーケティングスクール(2,400/¥500)、特徴(340/¥320)、選び方(500/¥120)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>初心者向けWebマーケティングスクールの活用法</td>
+<td>初心者向けの活用方法と学習の進め方</td>
+<td>概要</td>
+<td>初心者(1,500/¥300)、活用(230/¥200)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Webマーケティングスクールのカリキュラム比較</td>
+<td>複数スクールのカリキュラムを比較し、違いや特徴を説明</td>
+<td>概要</td>
+<td>カリキュラム(120/¥320)、比較(900/¥600)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Webマーケティングスクール卒業後のキャリアパス</td>
+<td>卒業後のキャリアを説明</td>
+<td>キャリア</td>
+<td>キャリア(650/¥900)、卒業後(890/¥90)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>オンラインWebマーケティングスクールの卒業後の副業は?</td>
+<td>卒業後にできる副業とその相場</td>
+<td>副業</td>
+<td>副業(2,500/¥1,000)、未経験(1,200/¥250)</td>
+</tr>
+</tbody></table></div><h2 id="s25">9. コンテンツ施策講座:リライト</h2><ul>
+<li>リライト:既存の記事を、検索エンジンとユーザーにとってより価値のあるものに改善する作業<ul>
+<li>検索キーワードの最適化(追加・削除、自然な配置)</li>
+<li>最新情報の反映</li>
+<li>検索意図に合った内容への改善</li>
+<li>タイトル・メタディスクリプションの見直し</li>
+<li>内部リンク・外部リンクの最適化</li>
+<li>見出しの整理、箇条書き、読みやすい文章への調整</li>
+</ul>
+</li>
+<li>手順(検索するときは必ずシークレットモードで)<ol>
+<li>キーワードごとの意図を把握し、検索キーワードと内容のずれを直す</li>
+<li>クリック数が多いキーワードの内容を充実させる</li>
+<li>関連キーワードをカバーする(実際に検索して、最下部に出る関連キーワードの内容を満たす)</li>
+<li>オリジナル要素を加える(競合にあって自社にない情報を補う)</li>
+<li>他の記事を参考にして書くのは、オリジナリティが損なわれるので優先度は低め</li>
+</ol>
+</li>
+<li>記事の評価(サーチコンソールの数値)。Phase5を目指してリライトする</li>
+</ul>
+<div class="tbl"><table><thead><tr>
+<th>段階</th>
+<th>条件</th>
+<th>対応</th>
+</tr>
+</thead><tbody><tr>
+<td>Phase1</td>
+<td>表示回数が月100回未満</td>
+<td>リライトヒントで表示回数の多いキーワードを2〜3個選び、それに沿ってリライト</td>
+</tr>
+<tr>
+<td>Phase2</td>
+<td>表示回数が月100回以上で、平均順位20位以下</td>
+<td>リライト</td>
+</tr>
+<tr>
+<td>Phase3</td>
+<td>平均順位10〜19位</td>
+<td>リライト</td>
+</tr>
+<tr>
+<td>Phase4</td>
+<td>平均順位10位以内で、クリックが月300回未満</td>
+<td>リライト</td>
+</tr>
+<tr>
+<td>Phase5</td>
+<td>クリックが月300回以上</td>
+<td>修正不要</td>
+</tr>
+</tbody></table></div>
+</main>
+</div>
+</body>
+</html>

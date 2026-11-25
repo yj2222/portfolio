@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Looker Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+:root{--main:#e91e63;--text:#222;--sub:#666;--line:#e5e5e5;--bg:#fff;--soft:#fdf2f6;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:16px}
+body{margin:0;font-family:"Noto Sans JP",sans-serif;line-height:1.8;color:var(--text);background:var(--bg);font-size:15px}
+.wrap{display:flex;max-width:1200px;margin:0 auto}
+nav{position:sticky;top:0;height:100vh;overflow-y:auto;width:280px;flex-shrink:0;padding:24px 16px;border-right:1px solid var(--line);font-size:13px}
+nav .back{display:inline-block;margin-bottom:16px;color:var(--main);text-decoration:none;font-weight:700}
+nav ul{list-style:none;margin:0;padding:0}
+nav li{margin:4px 0}
+nav li.l3{padding-left:14px;font-size:12px}
+nav a{color:var(--sub);text-decoration:none}
+nav a:hover{color:var(--main)}
+main{flex:1;min-width:0;padding:32px 40px 80px}
+h1{font-size:28px;margin:0 0 24px;padding-bottom:12px;border-bottom:3px solid var(--main)}
+h2{font-size:21px;margin-top:56px;padding:6px 12px;border-left:5px solid var(--main);background:var(--soft)}
+h3{font-size:17px;margin-top:36px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+h4{font-size:15px;margin-top:24px;color:var(--main)}
+a{color:var(--main);word-break:break-all}
+hr{border:none;border-top:1px solid var(--line);margin:40px 0}
+ul,ol{padding-left:1.4em}
+li{margin:2px 0}
+strong{background:linear-gradient(transparent 60%,#ffd6e5 60%)}
+code{background:#f4f4f4;padding:1px 5px;border-radius:3px;font-size:.9em}
+.tbl{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}
+th{background:var(--soft);white-space:nowrap}
+tbody tr:nth-child(even){background:#fafafa}
+@media (max-width:860px){
+ .wrap{display:block}
+ nav{position:static;height:auto;width:auto;border-right:none;border-bottom:1px solid var(--line)}
+ main{padding:24px 16px 60px}
+ h1{font-size:23px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+<a class="back" href="./">← 一覧へ</a>
+<ul><li class="l2"><a href="#s1">動画リスト(YouTube)</a></li><li class="l2"><a href="#s2">スライド資料</a></li><li class="l2"><a href="#s3">スライド① Looker Studio概要 のまとめ</a></li><li class="l3"><a href="#s4">1. Looker Studioとは</a></li><li class="l3"><a href="#s5">2. できること</a></li><li class="l3"><a href="#s6">3. GA4とサーチコンソールの連携</a></li><li class="l3"><a href="#s11">4. 連携後のレポート作成</a></li><li class="l2"><a href="#s12">スライド② リスティング広告データ確認方法 のまとめ</a></li><li class="l3"><a href="#s13">連携</a></li><li class="l3"><a href="#s14">レポートの作り方(テンプレートを使う前提)</a></li><li class="l3"><a href="#s15">キャンペーンごとのシート</a></li><li class="l3"><a href="#s16">検索キーワードのシート</a></li><li class="l2"><a href="#s17">特別授業「初心者向けLooker Studio講座!効果的なレポート作成術」のまとめ</a></li><li class="l3"><a href="#s18">Looker Studioでできること</a></li><li class="l3"><a href="#s19">データの可視化</a></li><li class="l3"><a href="#s20">接続できるデータ</a></li><li class="l3"><a href="#s21">基本操作:Google広告のデイリーレポート(自動更新)を作る</a></li><li class="l3"><a href="#s22">計算フィールド</a></li></ul>
+</nav>
+<main>
+<h1>Looker Studio</h1><p>出典:自習学習用教材「Google Looker Studio」ページ
+<a href="https://sites.google.com/view/reskilling-wannabe-student/study/gdp" target="_blank" rel="noopener">https://sites.google.com/view/reskilling-wannabe-student/study/gdp</a></p>
+<p>※Looker Studioの旧名称は「Googleデータポータル」「Googleデータスタジオ」。資料内でも混在している</p>
+<hr>
+<h2 id="s1">動画リスト(YouTube)</h2><div class="tbl"><table><thead><tr>
+<th>#</th>
+<th>タイトル</th>
+<th>URL</th>
+</tr>
+</thead><tbody><tr>
+<td>1</td>
+<td>Looker Studio概要</td>
+<td><a href="https://www.youtube.com/watch?v=U5xQ5K-A7LE" target="_blank" rel="noopener">https://www.youtube.com/watch?v=U5xQ5K-A7LE</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Looker Studio リスティング広告データ確認方法</td>
+<td><a href="https://www.youtube.com/watch?v=DqL7pLc2J9g" target="_blank" rel="noopener">https://www.youtube.com/watch?v=DqL7pLc2J9g</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>データポータルページの追加</td>
+<td><a href="https://www.youtube.com/watch?v=Z8QpUyNvkPY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=Z8QpUyNvkPY</a></td>
+</tr>
+</tbody></table></div><p>※動画の文字起こしは未対応(後回し)</p>
+<h2 id="s2">スライド資料</h2><ul>
+<li>Looker Studio概要 ver.2(24ページ):<a href="https://docs.google.com/presentation/d/1nnwsjejrl6gYGUGdMQgsXWM_g3lHARlX/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1nnwsjejrl6gYGUGdMQgsXWM_g3lHARlX/present</a></li>
+<li>データスタジオ(データポータル)リスティング広告データ確認方法(15ページ):<a href="https://docs.google.com/presentation/d/10q3FTWoXI80mL3r4y0fr16lrLEVi9srqzh_hP6exxqY/present" target="_blank" rel="noopener">https://docs.google.com/presentation/d/10q3FTWoXI80mL3r4y0fr16lrLEVi9srqzh_hP6exxqY/present</a></li>
+</ul>
+<hr>
+<h2 id="s3">スライド① Looker Studio概要 のまとめ</h2><p>内容:①Looker Studioとは ②できること ③GA4とサーチコンソールの連携 ④連携後のレポート作成</p>
+<h3 id="s4">1. Looker Studioとは</h3><ul>
+<li>GA4やサーチコンソールなどのデータを、読みやすく共有しやすい形で柔軟にカスタマイズできる<strong>無料のツール</strong></li>
+<li>GA4とサーチコンソールのデータを1つのレポートにまとめられるので、<strong>クライアントへの提出資料</strong>に便利</li>
+<li>PDFでダウンロードできるので、紙やファイルでの共有もできる</li>
+</ul>
+<h3 id="s5">2. できること</h3><ul>
+<li>複数のデータを1つのレポートで見せられる(GA4とサーチコンソールを同じレポートに)</li>
+<li>グラフや表でデータを可視化できる。GA4のいろいろなデータ項目を1画面で数字とグラフにできる。サーチコンソールはキーワード一覧を作れる</li>
+<li>レポートの例<ul>
+<li>スコアカード:オーガニック検索・セッション・ユーザー・新規ユーザー・ページビュー数(前期比の増減つき)</li>
+<li>流入経路の円グラフ(Organic Search、Paid Search、Direct、Display、Social、Referral、Email など)</li>
+<li>ページビュー数とオーガニック検索数の月別の折れ線グラフ(前年と比較)</li>
+<li>ページタイトル別の表(検索数、PV数、閲覧開始数、平均ページ滞在時間、直帰率など、前期比つき)</li>
+<li>検索キーワード別の表(クリック数、表示回数、平均掲載順位、クリック率、前期比つき)</li>
+</ul>
+</li>
+</ul>
+<h3 id="s6">3. GA4とサーチコンソールの連携</h3><h4 id="s7">3-1. ログイン</h4><ul>
+<li>Googleで「データポータル」と検索するとLooker Studioが出てくる → Google Cloudに移動 →「Looker Studioを使ってみる」→ 使うGoogleアカウントでログイン</li>
+</ul>
+<h4 id="s8">3-2. GA4を連携</h4><ol>
+<li>「空のレポート」を選び、アカウントの設定(国・会社名など)を完了させる。個人で使う場合、会社名は「○○○」などでよい</li>
+<li>「データのレポートへの追加」で「Googleアナリティクス」を選ぶ</li>
+<li>承認画面で「承認」→ ログインしたGoogleアカウントで閲覧権限のあるサイトが選べる</li>
+<li>「アカウント」→「プロパティ」を選び、「追加」をクリックで連携完了</li>
+</ol>
+<ul>
+<li>連携するとできること:ユーザー属性(男女比・年齢など)の円グラフ、流入経路、セッション数やPV数のスコア、ページごとのPV数や直帰率の一覧 など</li>
+<li>データが共有されている場合は「共有アイテム」から見られる</li>
+</ul>
+<h4 id="s9">3-3. サーチコンソールを連携</h4><ol>
+<li>「データを追加」→「データのレポートへの追加」→ データソース一覧から「Search Console」を選び、Googleアカウントを選択</li>
+<li>「承認」→ 閲覧権限のあるサイトを選ぶ</li>
+<li>「表」で「サイトのインプレッション」か「URLのインプレッション」を選ぶ</li>
+<li>「プロパティ パラメータ」は選ばなくても追加できるので、右下の「追加」をクリック</li>
+</ol>
+<ul>
+<li>連携するとできること:キーワード一覧の表の作成</li>
+</ul>
+<h4 id="s10">「サイトのインプレッション」と「URLのインプレッション」の違い</h4><ul>
+<li>サイト単位で集計するか、URL単位で集計するかの違い</li>
+<li>例:「Shareway セミナー」の検索結果に、自社の5ページ(1位 セミナーページ、2位 セミナーレポート、3位 TOPページ、4位 カピマルweb、5位 商品サービス)が出た場合</li>
+</ul>
+<div class="tbl"><table><thead><tr>
+<th>指標</th>
+<th>サイト別集計</th>
+<th>URL別集計</th>
+</tr>
+</thead><tbody><tr>
+<td>表示回数</td>
+<td>1回</td>
+<td>5回</td>
+</tr>
+<tr>
+<td>クリック数</td>
+<td>1回(1位をクリック後、戻って2位をクリックしても1回)</td>
+<td>1回以上(同じ操作なら2回)</td>
+</tr>
+<tr>
+<td>平均掲載順位</td>
+<td>1位</td>
+<td>3位((1+2+3+4+5)÷5)</td>
+</tr>
+</tbody></table></div><ul>
+<li>サイト別集計:一番順位の高いページのデータだけを集計する</li>
+<li>URL別集計:表示されたページすべてのデータを集計する</li>
+<li>集計方法が違うので、使えるディメンションや指標も違う<ul>
+<li>サイト:ディメンション(Country、Date、Device Category、Google Property、Query)/指標(Average Position、Clicks、Impressions、Site CTR)</li>
+<li>URL:ディメンションに「Landing Page」が加わる/指標(Impressions、Url Clicks、URL CTR)</li>
+</ul>
+</li>
+<li>**SEOのレポートなら「サイトのインプレッション」**を選ぶ。1つのキーワードで表示させたいページは1つのはずなので、複数URLのデータを集計する必要はあまりない。ただし、作りたいレポートによってはURLのインプレッションを選んでもよい</li>
+</ul>
+<h3 id="s11">4. 連携後のレポート作成</h3><ul>
+<li>「グラフを追加」でグラフの種類を選ぶ。紹介されているのは「表」「スコアカード」「期間(時系列)」「円」の4つ</li>
+<li>グラフごとに「データソース」「ディメンション」「指標」を設定すると、見せたいデータのグラフになる</li>
+</ul>
+<div class="tbl"><table><thead><tr>
+<th>項目</th>
+<th>説明</th>
+</tr>
+</thead><tbody><tr>
+<td>データソース</td>
+<td>使うデータを選ぶ</td>
+</tr>
+<tr>
+<td>ディメンション</td>
+<td>表やグラフの軸になるデータ(例:キャンペーン、広告、クエリ)</td>
+</tr>
+<tr>
+<td>指標</td>
+<td>ディメンションに関連する数値(例:クリック数、表示回数)</td>
+</tr>
+<tr>
+<td>並べ替え</td>
+<td>特定の指標を基準に並べ替える</td>
+</tr>
+<tr>
+<td>サブの並べ替え</td>
+<td>並べ替えの次に優先する基準</td>
+</tr>
+<tr>
+<td>日付範囲</td>
+<td>データの取得範囲。カスタムで任意の日付を選べる</td>
+</tr>
+<tr>
+<td>フィルタ</td>
+<td>特定のキーワードを含むものだけ表示するなど。条件は自分で作る</td>
+</tr>
+</tbody></table></div><ul>
+<li>手順:「編集」をクリック → 見たいデータのグラフ形式を選ぶ</li>
+<li><strong>複数人で使うときは、データを上書きしないようにページを分けて運用する</strong></li>
+</ul>
+<hr>
+<h2 id="s12">スライド② リスティング広告データ確認方法 のまとめ</h2><p>Google広告のデータをLooker Studioで確認・レポート化する手順</p>
+<h3 id="s13">連携</h3><ol>
+<li>「使ってみる」→「空のレポート」→「Google広告」を選ぶ</li>
+<li>該当の広告アカウントを選び、「追加」で連携完了</li>
+</ol>
+<h3 id="s14">レポートの作り方(テンプレートを使う前提)</h3><ul>
+<li>テンプレートには「1.全体サマリー」として「キャンペーン別サマリー」と「期間別サマリー」の表がある</li>
+<li>パワーポイントと同じように「テキスト」が入っているので、施策名と媒体名はテキストに書く(背面に月別の表があるので注意)</li>
+<li>表には、先ほど連携したデータソースを選ぶ</li>
+<li>「ディメンションを追加」で表の一番左の列(軸)を設定する。表にはExcelのように自由にテキストを書くことはできない</li>
+<li>指標は普段のレポートと同じ仕様(表示回数、クリック数、クリック率、平均クリック単価、費用、コンバージョン、コンバージョン率、コンバージョン単価など)。追加したいときは「指標を追加」</li>
+<li>2つのブロックは同期しているので、期間を変えたいときは1つ目のブロックで変える</li>
+<li>集計表は「合計」が表示されているか確認する</li>
+<li>並べ替え:月の横のアイコンから基準(月別なら「月」)を選び、昇順か降順を選ぶ</li>
+<li>「キャンペーン別サマリー」と「期間別サマリー」は期間設定が別。期間別で1年分を出したいときは「カスタム → 今月 → 今年」にする</li>
+<li>日別にしたいときは、ディメンション(表の軸)を「日」にする</li>
+</ul>
+<h3 id="s15">キャンペーンごとのシート</h3><ul>
+<li>フィルタを使う:「フィルタ → フィルタを追加 → フィルタの作成」</li>
+<li>フィルタ名を付け、「一致条件 → キャンペーン → 含む → キャンペーン名(例:弁当箱訴求)」で保存し、そのフィルタを選ぶ</li>
+</ul>
+<h3 id="s16">検索キーワードのシート</h3><ul>
+<li>ディメンションに「検索キーワード」と「マッチタイプ」を入れる</li>
+<li>マッチタイプは英語で表示されるので注意:部分一致=Broad、完全一致=Exact、フレーズ一致=Phrase</li>
+<li>1ページあたりの行数を5000にしておくと、表示モードでページを切り替えずに確認できて便利</li>
+</ul>
+<hr>
+<h2 id="s17">特別授業「初心者向けLooker Studio講座!効果的なレポート作成術」のまとめ</h2><p>出典:自習学習用教材の特別授業アーカイブ(#10)</p>
+<ul>
+<li>動画:<a href="https://www.youtube.com/watch?v=2Kf-zRQnZ3Y" target="_blank" rel="noopener">https://www.youtube.com/watch?v=2Kf-zRQnZ3Y</a></li>
+<li>スライド:【特別授業】LookerStudio入門(17ページ)<a href="https://drive.google.com/file/d/1S7qEV0F0iJxGHcgf3ALStKxKeu0rzIhS/view" target="_blank" rel="noopener">https://drive.google.com/file/d/1S7qEV0F0iJxGHcgf3ALStKxKeu0rzIhS/view</a></li>
+</ul>
+<p>内容:Looker Studioとは/できること/基本操作/計算フィールド</p>
+<h3 id="s18">Looker Studioでできること</h3><ul>
+<li>細かく設定できるグラフや表でデータを可視化する</li>
+<li>いろいろなデータソースに簡単に接続する</li>
+<li>インサイトをチームと共有・公開する、レポートで共同作業する</li>
+<li>組み込みのサンプルレポートで素早くレポートを作る</li>
+</ul>
+<h3 id="s19">データの可視化</h3><ul>
+<li>線グラフ、棒グラフ、円グラフ、地図、面グラフ、バブルチャート、ページ割りされた表、ピボットテーブルなど</li>
+<li>閲覧者フィルタや期間設定でレポートをインタラクティブにできる。誰でも自分のデータ確認に使える柔軟なテンプレートを作れる</li>
+<li>リンクやクリックできる画像を入れて、商品カタログや動画ライブラリなどを作れる</li>
+<li>テキストや画像でアノテーション・ブランディングができる。スタイルやカラーテーマで見せ方を調整できる</li>
+</ul>
+<h3 id="s20">接続できるデータ</h3><ul>
+<li>データベース(BigQuery、MySQL、PostgreSQL など)</li>
+<li>Googleマーケティングプラットフォーム(Google広告、アナリティクス、ディスプレイ&amp;ビデオ360、検索広告360 など)</li>
+<li>Googleの一般向けサービス(スプレッドシート、YouTube、Search Console など)</li>
+<li>CSVファイルのアップロード、Google Cloud Storage経由のファイル</li>
+<li>ソーシャルメディア(Facebook、Reddit、Twitter など)</li>
+<li>複数のソースを組み合わせた混合データ</li>
+<li>データを追加する画面にはいろいろなテンプレート(コネクタ)があるが、非公式なものも多い</li>
+</ul>
+<h3 id="s21">基本操作:Google広告のデイリーレポート(自動更新)を作る</h3><ul>
+<li>クライアントから多い「デイリーで数値を報告してほしい」という要望に対応する</li>
+</ul>
+<ol>
+<li>該当のGoogle広告アカウントを選んで「追加」で連携</li>
+<li>「表」を選び、指標とディメンションを要望どおりに変える</li>
+<li>「コントロールを追加」から<strong>期間設定</strong>を置くと、期間を自由に切り替えられる(期間をコントロールしたい表の近くに置く)</li>
+<li>「ディメンションを追加」で表の一番左の列を設定する(表にはExcelのように自由にテキストを書けない)</li>
+</ol>
+<ul>
+<li>以降の操作(合計の確認、並べ替え、キャンペーン別・期間別サマリーの期間設定、フィルタでキャンペーンごとのシート、検索キーワードとマッチタイプ、1ページの行数5000)は、上の「スライド② リスティング広告データ確認方法」と同じ</li>
+<li>「挿入」から、いろいろなグラフ・リスト・画像などを追加できる</li>
+<li>ページを増やして複数のレポートを作れば、週次・月次のレポートも自動作成できる</li>
+</ul>
+<h3 id="s22">計算フィールド</h3><ul>
+<li>クリック単価や費用などを**グロス表記(マージン込み)**にしたい場合は、データパネルの下にある「計算フィールドを追加」を使う</li>
+<li>「フィールド名」と「計算式」を入れる。関数を使って、意図した数値を表示できる<ul>
+<li>例:マージン20%の場合、フィールド名「費用(G)」、計算式 <code>ROUND(費用 / 0.8, 0)</code></li>
+</ul>
+</li>
+<li>グロス表記にした指標は、表に「(G)」と付けて組み込む</li>
+</ul>
+
+</main>
+</div>
+</body>
+</html>
